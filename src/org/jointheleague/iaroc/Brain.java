@@ -21,11 +21,10 @@ public class Brain extends IRobotCreateAdapter {
     public void initialize() throws ConnectionLostException {
         dashboard.log("Hello! I'm a Clever Robot!");
         //what would you like me to do, Clever Human?
+if (isBumpRight()){
 
-
-
-
-    }
+dashboard.log("hit Right bumper");
+    }}
     /* This method is called repeatedly. */
     public void loop() throws ConnectionLostException {}
 }
